@@ -8,10 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    @IBOutlet weak var loginName: UILabel!
-  
-   
+      
     var contentNetwork = ContentNetwork()
     var content: Content?
     
