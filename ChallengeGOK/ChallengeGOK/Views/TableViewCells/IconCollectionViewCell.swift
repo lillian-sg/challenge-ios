@@ -10,17 +10,19 @@ import UIKit
 class IconCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var iconView: UIView!
-    @IBOutlet weak var iconTitleLabel: UILabel!
     @IBOutlet weak var iconImage: UIImageView!
     
    
     override func awakeFromNib() {
         super.awakeFromNib()
-        
     }
     override func prepareForReuse() {
         super.prepareForReuse()
                 
+    }
+    func configureCell(iconUrl: String) {
+        print(iconUrl)
+        iconImage.setImage(imageUrl: iconUrl)
     }
 
 }
