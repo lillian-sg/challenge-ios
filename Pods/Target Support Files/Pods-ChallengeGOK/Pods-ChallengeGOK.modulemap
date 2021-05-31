@@ -1,0 +1,6 @@
+framework module Pods_ChallengeGOK {
+  umbrella header "Pods-ChallengeGOK-umbrella.h"
+
+  export *
+  module * { export * }
+}
